@@ -17,5 +17,6 @@ public class InverseNumber{
             position++;
         }
         System.out.print("Inverse number is : "+inverse);
+        input.close();
     }
 }

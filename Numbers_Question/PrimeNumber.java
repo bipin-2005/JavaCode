@@ -9,6 +9,7 @@ public class PrimeNumber{
         if(num == 1){
             System.out.print("1 is neither prime nor composite number");
             return;
+            
         }
         for(int i=2;i<=num/2;i++){
             if(num%i==0){
