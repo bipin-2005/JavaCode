@@ -15,5 +15,6 @@ public class GCDNumber {
                 return;
             }
         }
-    }  
+        input.close();
+    }   
 }
